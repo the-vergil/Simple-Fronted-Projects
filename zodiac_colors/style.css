@@ -1,0 +1,48 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 100px 50px;
+    box-sizing: border-box;
+}
+
+.container h1 {
+    margin: auto;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80px;
+}
+
+.container select {
+    margin: auto;
+    text-align: center;
+    background-color: black;
+}
+
+.select {
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    width: max-content;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#zodiac { 
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    padding: 15px;
+}
+
+select:hover {
+    color: crimson;
+}
